@@ -33,7 +33,7 @@ do
 done
 
 # calculate class scores
-NUM_CLASSES=cat $CLASSNAMES | wc -l
+NUM_CLASSES=`cat $CLASSNAMES | wc -l`
 python3 main.py \
     --input input \
     --video_root $VIDEOS \
