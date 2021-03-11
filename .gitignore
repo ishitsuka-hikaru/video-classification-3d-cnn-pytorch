@@ -102,4 +102,10 @@ ENV/
 
 .DS_Store
 *~
-abci/run_batch.sh.*
+run_batch.sh.o*
+run.sh.o*
+output.json
+class_names_list_makehuman
+
+/pretrain_models/
+/videos/

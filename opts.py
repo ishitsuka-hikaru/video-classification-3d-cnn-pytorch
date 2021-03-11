@@ -18,7 +18,8 @@ def parse_opts():
     parser.set_defaults(verbose=False)
     parser.add_argument('--verbose', action='store_true', help='')
     parser.set_defaults(verbose=False)
-    parser.add_argument('--n_classes', default=400, type=int, help='Number of classes')
+    parser.add_argument('--n_classes', default=400, type=int)
+    parser.add_argument('--class_names_list', default='class_names_list', type=str)
 
     args = parser.parse_args()
 
